@@ -20,7 +20,7 @@
 
 				<js src="/js/components/alvex.js" />
 
-				<css src="/components/alvex/datalists/datagrid.css" />
+				<css src="/css/components/alvex/datalists/datagrid.css" />
 				<js src="/modules/data-lists/datalist-actions.js" />
 				<js src="/js/components/alvex/datalists/datagrid-renderers.js" />
 				<js src="/js/components/alvex/datalists/datagrid-search.js" />
@@ -33,8 +33,8 @@
 				<!-- Copied from 4.2.c. WA for 4.1.x where HTML5 uploader is not good -->
 				<css src="/css/components/alvex/uploader/dnd-upload.css" />
 				<js  src="/js/components/alvex/uploader/dnd-upload.js" />
-				<css src="/css/components/upload/flash-upload.css" />
-				<js  src="/js/components/upload/flash-upload.js" />
+				<css src="/components/upload/flash-upload.css" />
+				<js  src="/components/upload/flash-upload.js" />
 			</dependencies>
 		</forms>
 	</config>
