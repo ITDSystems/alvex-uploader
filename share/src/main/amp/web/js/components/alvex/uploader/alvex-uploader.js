@@ -682,7 +682,7 @@ if (typeof Alvex == "undefined" || !Alvex)
 		formatStatusField: function (elLiner, oRecord, oColumn, oData)
 		{
 			elLiner.innerHTML = '<img src="' + Alfresco.constants.URL_RESCONTEXT 
-					+ 'components/alvex/uploader/complete-16.png' + '"/> ' 
+					+ 'img/components/alvex/uploader/complete-16.png' + '"/> ' 
 					+ this.uploader.msg('label.ok');
 		},
 		
