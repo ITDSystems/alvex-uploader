@@ -18,7 +18,7 @@
 
 				<js src="/js/alfresco-dnd.js" />
 
-				<js src="/js/components/alvex.js" />
+				<js src="/js/components/alvex/alvex.js" />
 
 				<css src="/css/components/alvex/datalists/datagrid.css" />
 				<js src="/modules/data-lists/datalist-actions.js" />
