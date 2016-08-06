@@ -41,7 +41,7 @@ function resolveNode(reference)
 function createFolders(node, path)
 {
 	for each(x in path.split('/'))
-		if (node !== null && x.length > 0)
+		if (node !== null && x.length() > 0)
 			if(node.childByNamePath(x) === null)
 				node = node.createFolder(x);
 			else
@@ -295,7 +295,7 @@ function main()
          /**
           * Upload new file to destNode (calculated earlier) + optional subdirectory
           */
-         if (uploadDirectory !== null && uploadDirectory.length > 0)
+         if (uploadDirectory !== null && uploadDirectory.length() > 0)
          {
             if (destNode.childByNamePath(uploadDirectory) !== null || !createUploadDirectory)
 				destNode = destNode.childByNamePath(uploadDirectory);
