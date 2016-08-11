@@ -28,6 +28,5 @@ public class UploaderExtension extends ShareExtension {
 	// constructor
 	public UploaderExtension() throws Exception {
 		id = "uploader";
-		extInfoPath = "alvex-uploader.properties";
 	}
 }
