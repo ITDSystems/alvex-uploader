@@ -3,7 +3,7 @@
 Alvex Uploader
 ========================
 
-Features:
+
 Attach files from local drive or select existing files in the repository on any form:
 * packageItems on workflow forms
 * cm:content associations on any custom form
