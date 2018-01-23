@@ -2,26 +2,26 @@
 
 # Alvex Uploader
 
-Attach files from local drive or select existing files in the repository on any form:
+Attach files from local drive or select existing files in the repository on any Alfresco Share form:
 * packageItems on workflow forms
 * cm:content associations on any custom form
 
-![image](http://docs.alvexcore.com/en-US/Alvex/2.1/html-single/Admin_Guide/images/img38.png)
+![Uploader](http://alvexcore.com/images/docs/uploader.png)
 
-Compatible with Alfresco 5.1.
+Compatible with Alfresco 5.1 and 5.2.
 
-This component depends on:
+This component requires:
 * [Alvex Utils](https://github.com/ITDSystems/alvex-utils)
 
-# Downloads
+# Using this project
 
-Download ready-to-use Alvex components via [Alvex](https://github.com/ITDSystems/alvex#downloads).
+Recommended way to use Alvex components is to include them as dependencies to your Maven project. Follow [this guide](https://github.com/ITDSystems/alvex#recommended-way-include-alvex-to-your-project-via-maven-configuration) to include this component to your project.
 
-# Build
+# Build from source
 
 To build Alvex follow [this guide](https://github.com/ITDSystems/alvex#build-component-from-source).
 
-# Use
+# Quick Start
 
 ### Using Files uploader on workflow forms
 
